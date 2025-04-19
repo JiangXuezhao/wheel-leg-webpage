@@ -4,7 +4,7 @@
     <section class="page-header">
       <div class="container">
         <h1>Project Statistics</h1>
-        <p>Analytical insights and metrics about our project progress</p>
+        <p>Analytical insights and metrics about our Wheel-Leg Robot research project</p>
       </div>
     </section>
 
@@ -20,13 +20,13 @@
           <div class="progress-card">
             <h3>Overall Completion</h3>
             <div class="progress-container">
-              <div class="progress-circle" :style="{ '--progress': '70%' }">
+              <div class="progress-circle" :style="{ '--progress': '35%' }">
                 <div class="progress-circle-inner">
-                  <span>70%</span>
+                  <span>35%</span>
                 </div>
               </div>
             </div>
-            <p>Project is on track to meet the deadline</p>
+            <p>Project is on track to meet the July 2025 deadline</p>
           </div>
 
           <div class="progress-card">
@@ -34,28 +34,28 @@
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Completed</span>
-                <span>28/40</span>
+                <span>1/8</span>
               </div>
               <div class="progress-bar">
-                <div class="progress" style="width: 70%;"></div>
+                <div class="progress" style="width: 12.5%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>In Progress</span>
-                <span>8/40</span>
+                <span>3/8</span>
               </div>
               <div class="progress-bar">
-                <div class="progress in-progress" style="width: 20%;"></div>
+                <div class="progress in-progress" style="width: 37.5%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Pending</span>
-                <span>4/40</span>
+                <span>4/8</span>
               </div>
               <div class="progress-bar">
-                <div class="progress pending" style="width: 10%;"></div>
+                <div class="progress pending" style="width: 50%;"></div>
               </div>
             </div>
           </div>
@@ -67,21 +67,21 @@
                 <i class="fas fa-clock"></i>
                 <div class="status-details">
                   <h4>Project Duration</h4>
-                  <p>12 months</p>
+                  <p>4 months (April - July 2025)</p>
                 </div>
               </div>
               <div class="status-item">
                 <i class="fas fa-calendar-check"></i>
                 <div class="status-details">
                   <h4>Time Elapsed</h4>
-                  <p>8 months</p>
+                  <p>~1 month</p>
                 </div>
               </div>
               <div class="status-item">
                 <i class="fas fa-calendar-day"></i>
                 <div class="status-details">
                   <h4>Time Remaining</h4>
-                  <p>4 months</p>
+                  <p>~3 months</p>
                 </div>
               </div>
             </div>
@@ -101,48 +101,24 @@
         <div class="phase-progress">
           <div class="phase-card">
             <div class="phase-header">
-              <h3>Planning</h3>
-              <span class="phase-status completed">Completed</span>
-            </div>
-            <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 100%;"></div>
-            </div>
-            <div class="phase-stats">
-              <div class="phase-stat">
-                <span>Start Date</span>
-                <span>Jan 10, 2023</span>
-              </div>
-              <div class="phase-stat">
-                <span>End Date</span>
-                <span>Feb 28, 2023</span>
-              </div>
-              <div class="phase-stat">
-                <span>Tasks</span>
-                <span>8/8 Completed</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="phase-card">
-            <div class="phase-header">
               <h3>Design</h3>
-              <span class="phase-status completed">Completed</span>
+              <span class="phase-status in-progress">In Progress</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 100%;"></div>
+              <div class="phase-progress-indicator" style="width: 80%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
                 <span>Start Date</span>
-                <span>Mar 1, 2023</span>
+                <span>Apr 1, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>End Date</span>
-                <span>Apr 30, 2023</span>
+                <span>April 30, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>12/12 Completed</span>
+                <span>1/2 Completed</span>
               </div>
             </div>
           </div>
@@ -153,44 +129,44 @@
               <span class="phase-status in-progress">In Progress</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 65%;"></div>
+              <div class="phase-progress-indicator" style="width: 40%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
                 <span>Start Date</span>
-                <span>May 1, 2023</span>
+                <span>Apr 15, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>End Date</span>
-                <span>Oct, 2023</span>
+                <span>Jun 8, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>13/20 Completed</span>
+                <span>2/3 In Progress</span>
               </div>
             </div>
           </div>
 
           <div class="phase-card">
             <div class="phase-header">
-              <h3>Testing</h3>
-              <span class="phase-status upcoming">Upcoming</span>
+              <h3>Documentation</h3>
+              <span class="phase-status in-progress">In Progress</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 0%;"></div>
+              <div class="phase-progress-indicator" style="width: 25%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
                 <span>Start Date</span>
-                <span>Sep 1, 2023</span>
+                <span>Apr 18, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>End Date</span>
-                <span>Nov 15, 2023</span>
+                <span>Jul 15, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>0/10 Completed</span>
+                <span>1/2 In Progress</span>
               </div>
             </div>
           </div>
@@ -206,15 +182,39 @@
             <div class="phase-stats">
               <div class="phase-stat">
                 <span>Start Date</span>
-                <span>Nov 16, 2023</span>
+                <span>May 25, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>End Date</span>
-                <span>Dec 15, 2023</span>
+                <span>Jun 8, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>0/5 Completed</span>
+                <span>0/1 Completed</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="phase-card">
+            <div class="phase-header">
+              <h3>Testing</h3>
+              <span class="phase-status upcoming">Upcoming</span>
+            </div>
+            <div class="phase-progress-bar">
+              <div class="phase-progress-indicator" style="width: 0%;"></div>
+            </div>
+            <div class="phase-stats">
+              <div class="phase-stat">
+                <span>Start Date</span>
+                <span>Jun 13, 2025</span>
+              </div>
+              <div class="phase-stat">
+                <span>End Date</span>
+                <span>Jul 15, 2025</span>
+              </div>
+              <div class="phase-stat">
+                <span>Tasks</span>
+                <span>0/1 Completed</span>
               </div>
             </div>
           </div>
@@ -235,57 +235,57 @@
             <h3>Team Distribution</h3>
             <div class="pie-chart-container">
               <div class="pie-chart">
-                <div class="slice slice1" style="--percentage: 40%; --color: var(--primary-color);"></div>
-                <div class="slice slice2" style="--percentage: 25%; --color: #6c757d;"></div>
+                <div class="slice slice1" style="--percentage: 35%; --color: var(--primary-color);"></div>
+                <div class="slice slice2" style="--percentage: 30%; --color: #6c757d;"></div>
                 <div class="slice slice3" style="--percentage: 20%; --color: #28a745;"></div>
                 <div class="slice slice4" style="--percentage: 15%; --color: #17a2b8;"></div>
               </div>
               <div class="pie-legend">
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: var(--primary-color);"></span>
-                  <span>Development (40%)</span>
+                  <span>Robot Design (35%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #6c757d;"></span>
-                  <span>Design (25%)</span>
+                  <span>Control Systems (30%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #28a745;"></span>
-                  <span>QA Testing (20%)</span>
+                  <span>DRL Implementation (20%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #17a2b8;"></span>
-                  <span>Project Management (15%)</span>
+                  <span>Documentation (15%)</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="resource-card">
-            <h3>Budget Allocation</h3>
+            <h3>Learning Hours Allocation</h3>
             <div class="pie-chart-container">
               <div class="pie-chart">
-                <div class="slice slice1" style="--percentage: 45%; --color: var(--primary-color);"></div>
-                <div class="slice slice2" style="--percentage: 25%; --color: #6c757d;"></div>
-                <div class="slice slice3" style="--percentage: 20%; --color: #28a745;"></div>
-                <div class="slice slice4" style="--percentage: 10%; --color: #17a2b8;"></div>
+                <div class="slice slice1" style="--percentage: 27%; --color: var(--primary-color);"></div>
+                <div class="slice slice2" style="--percentage: 13%; --color: #6c757d;"></div>
+                <div class="slice slice3" style="--percentage: 40%; --color: #28a745;"></div>
+                <div class="slice slice4" style="--percentage: 20%; --color: #17a2b8;"></div>
               </div>
               <div class="pie-legend">
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: var(--primary-color);"></span>
-                  <span>Development (45%)</span>
+                  <span>Robot Design (20 hrs, 7%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #6c757d;"></span>
-                  <span>Design (25%)</span>
+                  <span>Control System (40 hrs, 13%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #28a745;"></span>
-                  <span>Infrastructure (20%)</span>
+                  <span>DRL Training (120 hrs, 40%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #17a2b8;"></span>
-                  <span>Marketing (10%)</span>
+                  <span>Edge Computing & Testing (60 hrs, 20%)</span>
                 </div>
               </div>
             </div>
@@ -299,56 +299,56 @@
       <div class="container">
         <div class="section-title">
           <h2>Key Performance Indicators</h2>
-          <p>Critical metrics tracking project health and success</p>
+          <p>Critical metrics tracking our Wheel-Leg Robot research progress</p>
         </div>
 
         <div class="kpi-cards">
           <div class="kpi-card">
             <div class="kpi-icon">
-              <i class="fas fa-tachometer-alt"></i>
+              <i class="fas fa-robot"></i>
             </div>
             <div class="kpi-content">
-              <h3>Development Velocity</h3>
+              <h3>Control System Accuracy</h3>
               <div class="kpi-value">
-                <span>42</span>
-                <span class="kpi-unit">Story Points/Sprint</span>
+                <span>85%</span>
+                <span class="kpi-unit">Precision</span>
               </div>
               <div class="kpi-trend positive">
                 <i class="fas fa-arrow-up"></i>
-                <span>8% from last sprint</span>
+                <span>12% from baseline</span>
               </div>
             </div>
           </div>
 
           <div class="kpi-card">
             <div class="kpi-icon">
-              <i class="fas fa-bug"></i>
+              <i class="fas fa-cogs"></i>
             </div>
             <div class="kpi-content">
-              <h3>Defect Density</h3>
+              <h3>Robot Movement Efficiency</h3>
               <div class="kpi-value">
-                <span>0.8</span>
-                <span class="kpi-unit">Bugs/1000 LOC</span>
+                <span>0.78</span>
+                <span class="kpi-unit">Energy/Distance</span>
               </div>
               <div class="kpi-trend positive">
-                <i class="fas fa-arrow-down"></i>
-                <span>12% from last month</span>
+                <i class="fas fa-arrow-up"></i>
+                <span>15% improvement</span>
               </div>
             </div>
           </div>
 
           <div class="kpi-card">
             <div class="kpi-icon">
-              <i class="fas fa-code-branch"></i>
+              <i class="fas fa-microchip"></i>
             </div>
             <div class="kpi-content">
-              <h3>Code Coverage</h3>
+              <h3>DRL Model Performance</h3>
               <div class="kpi-value">
-                <span>87%</span>
+                <span>72%</span>
               </div>
               <div class="kpi-trend positive">
                 <i class="fas fa-arrow-up"></i>
-                <span>5% from last release</span>
+                <span>8% from last iteration</span>
               </div>
             </div>
           </div>
@@ -358,14 +358,14 @@
               <i class="fas fa-stopwatch"></i>
             </div>
             <div class="kpi-content">
-              <h3>Cycle Time</h3>
+              <h3>Processing Latency</h3>
               <div class="kpi-value">
-                <span>4.2</span>
-                <span class="kpi-unit">Days</span>
+                <span>24</span>
+                <span class="kpi-unit">ms</span>
               </div>
-              <div class="kpi-trend negative">
-                <i class="fas fa-arrow-up"></i>
-                <span>0.5 days increase</span>
+              <div class="kpi-trend positive">
+                <i class="fas fa-arrow-down"></i>
+                <span>35% reduction</span>
               </div>
             </div>
           </div>
