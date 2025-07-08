@@ -20,13 +20,13 @@
           <div class="progress-card">
             <h3>Overall Completion</h3>
             <div class="progress-container">
-              <div class="progress-circle" :style="{ '--progress': '35%' }">
+              <div class="progress-circle" :style="{ '--progress': '75%' }">
                 <div class="progress-circle-inner">
-                  <span>35%</span>
+                  <span>75%</span>
                 </div>
               </div>
             </div>
-            <p>Project is on track to meet the July 2025 deadline</p>
+            <p>Project ahead of schedule as of June 1, 2025</p>
           </div>
 
           <div class="progress-card">
@@ -34,28 +34,28 @@
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Completed</span>
-                <span>1/8</span>
+                <span>4/9</span>
               </div>
               <div class="progress-bar">
-                <div class="progress" style="width: 12.5%;"></div>
+                <div class="progress" style="width: 44.4%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>In Progress</span>
-                <span>3/8</span>
+                <span>2/9</span>
               </div>
               <div class="progress-bar">
-                <div class="progress in-progress" style="width: 37.5%;"></div>
+                <div class="progress in-progress" style="width: 22.2%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Pending</span>
-                <span>4/8</span>
+                <span>3/9</span>
               </div>
               <div class="progress-bar">
-                <div class="progress pending" style="width: 50%;"></div>
+                <div class="progress pending" style="width: 33.3%;"></div>
               </div>
             </div>
           </div>
@@ -74,14 +74,14 @@
                 <i class="fas fa-calendar-check"></i>
                 <div class="status-details">
                   <h4>Time Elapsed</h4>
-                  <p>~1 month</p>
+                  <p>2 months (50%)</p>
                 </div>
               </div>
               <div class="status-item">
                 <i class="fas fa-calendar-day"></i>
                 <div class="status-details">
                   <h4>Time Remaining</h4>
-                  <p>~3 months</p>
+                  <p>1.5 months</p>
                 </div>
               </div>
             </div>
@@ -102,10 +102,10 @@
           <div class="phase-card">
             <div class="phase-header">
               <h3>Design</h3>
-              <span class="phase-status in-progress">In Progress</span>
+              <span class="phase-status completed">Completed</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 80%;"></div>
+              <div class="phase-progress-indicator" style="width: 100%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
@@ -114,11 +114,11 @@
               </div>
               <div class="phase-stat">
                 <span>End Date</span>
-                <span>April 30, 2025</span>
+                <span>May 15, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>1/2 Completed</span>
+                <span>1/1 Completed</span>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@
               <span class="phase-status in-progress">In Progress</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 40%;"></div>
+              <div class="phase-progress-indicator" style="width: 85%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
@@ -138,11 +138,11 @@
               </div>
               <div class="phase-stat">
                 <span>End Date</span>
-                <span>Jun 8, 2025</span>
+                <span>Jun 30, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>2/3 In Progress</span>
+                <span>3/4 Completed</span>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@
               <span class="phase-status in-progress">In Progress</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 25%;"></div>
+              <div class="phase-progress-indicator" style="width: 40%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
@@ -173,30 +173,6 @@
 
           <div class="phase-card">
             <div class="phase-header">
-              <h3>Deployment</h3>
-              <span class="phase-status upcoming">Upcoming</span>
-            </div>
-            <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 0%;"></div>
-            </div>
-            <div class="phase-stats">
-              <div class="phase-stat">
-                <span>Start Date</span>
-                <span>May 25, 2025</span>
-              </div>
-              <div class="phase-stat">
-                <span>End Date</span>
-                <span>Jun 8, 2025</span>
-              </div>
-              <div class="phase-stat">
-                <span>Tasks</span>
-                <span>0/1 Completed</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="phase-card">
-            <div class="phase-header">
               <h3>Testing</h3>
               <span class="phase-status upcoming">Upcoming</span>
             </div>
@@ -206,11 +182,11 @@
             <div class="phase-stats">
               <div class="phase-stat">
                 <span>Start Date</span>
-                <span>Jun 13, 2025</span>
+                <span>Jul 1, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>End Date</span>
-                <span>Jul 15, 2025</span>
+                <span>Jul 10, 2025</span>
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>

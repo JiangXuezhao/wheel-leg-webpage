@@ -69,7 +69,7 @@
       <div class="container">
         <div class="section-title">
           <h2>Project Overview</h2>
-          <p>Current progress and achievements in our robotic research.</p>
+          <p>Current progress and achievements in our robotic research as of June 1, 2025.</p>
         </div>
 
         <div class="overview-content">
@@ -77,15 +77,15 @@
             <h3>Current Status</h3>
             <div class="status-indicator">
               <div class="progress-bar">
-                <div class="progress" style="width: 60%;"></div>
+                <div class="progress" style="width: 75%;"></div>
               </div>
-              <p><span>60%</span> Complete</p>
+              <p><span>75%</span> Complete</p>
             </div>
             <ul class="status-details">
-              <li><i class="fas fa-check-circle"></i> Robot Design: <span>Completed</span></li>
-              <li><i class="fas fa-check-circle"></i> Control System: <span>Completed</span></li>
-              <li><i class="fas fa-spinner fa-spin"></i> DRL Training (Simulation): <span>In Progress</span></li>
-              <li><i class="fas fa-clock"></i> Real-world Testing: <span>Upcoming</span></li>
+              <li><i class="fas fa-check-circle"></i> Mechanical Structures: <span>Completed</span></li>
+              <li><i class="fas fa-check-circle"></i> Electrical Control: <span>Completed</span></li>
+              <li><i class="fas fa-check-circle"></i> Simulation Environment: <span>Completed</span></li>
+              <li><i class="fas fa-spinner fa-spin"></i> Real-world Testing: <span>In Progress</span></li>
             </ul>
           </div>
 
@@ -93,24 +93,24 @@
             <h3>Key Achievements</h3>
             <ul class="achievements-list">
               <li>
-                <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                <div class="achievement-icon"><i class="fas fa-cogs"></i></div>
                 <div class="achievement-content">
-                  <h4>Robot Design Completed</h4>
-                  <p>Finalized the 5-link balanced wheel-leg structure design in SolidWorks</p>
+                  <h4>Physical Robot Constructed</h4>
+                  <p>Complete SolidWorks modeling with #-shaped frame, battery, Mini PC, and five-bar linkage joints</p>
                 </div>
               </li>
               <li>
-                <div class="achievement-icon"><i class="fas fa-award"></i></div>
+                <div class="achievement-icon"><i class="fas fa-microchip"></i></div>
                 <div class="achievement-content">
-                  <h4>Control System Development</h4>
-                  <p>Implemented ROS-based control architecture for the wheel-leg robot</p>
+                  <h4>RTOS Control System</h4>
+                  <p>Unified RTOS project with CAN Bus configuration and joint motor position alignment</p>
                 </div>
               </li>
               <li>
-                <div class="achievement-icon"><i class="fas fa-star"></i></div>
+                <div class="achievement-icon"><i class="fas fa-brain"></i></div>
                 <div class="achievement-content">
-                  <h4>Simulation Environment Setup</h4>
-                  <p>Created diverse training scenarios in Wheel-Legged-Gym for DRL training</p>
+                  <h4>PPO Algorithm Implementation</h4>
+                  <p>Deep reinforcement learning with Isaac Gym on RTX4070, testing on flat and complex terrains</p>
                 </div>
               </li>
             </ul>

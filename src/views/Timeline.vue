@@ -11,6 +11,50 @@
     <!-- Timeline Section -->
     <section class="section timeline-section">
       <div class="container">
+        <!-- Interim Report Section -->
+        <div class="interim-report-section">
+          <div class="interim-report-header">
+            <h2>Interim Report Highlights</h2>
+            <p class="report-date">As of June 1, 2025</p>
+          </div>
+          
+          <div class="report-achievements">
+            <div class="achievement-grid">
+              <div class="achievement-item">
+                <div class="achievement-icon">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <h3>Physical Robot Completed</h3>
+                <p>Complete mechanical structures with #-shaped frame, battery, Mini PC, and five-bar linkage joints</p>
+              </div>
+              
+              <div class="achievement-item">
+                <div class="achievement-icon">
+                  <i class="fas fa-microchip"></i>
+                </div>
+                <h3>RTOS Control System</h3>
+                <p>Unified RTOS project with CAN Bus configuration and joint motor position alignment</p>
+              </div>
+              
+              <div class="achievement-item">
+                <div class="achievement-icon">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <h3>PPO Algorithm Training</h3>
+                <p>Complete simulation environment with Isaac Gym, testing on flat and complex terrains</p>
+              </div>
+              
+              <div class="achievement-item">
+                <div class="achievement-icon">
+                  <i class="fas fa-desktop"></i>
+                </div>
+                <h3>Simulation Platform</h3>
+                <p>RTX4070 with Python 3.8, PyTorch 2.3, comprehensive reward function design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="timeline-controls">
           <div class="timeline-filter">
             <label for="phase-filter">Filter by Phase:</label>
@@ -157,20 +201,36 @@ export default {
       currentFilter: 'all',
       timelineItems: [
         {
-          title: 'Robot Design and Construction',
-          date: 'April 1, 2025',
-          description: 'Design and build wheel-legged robots with a 5-link balanced wheel-leg structure, focusing on stability and agility.',
+          title: 'Mechanical Structures Design & Construction',
+          date: 'April 1 - May 15, 2025',
+          description: 'Complete SolidWorks modeling and physical robot construction. Features #-shaped frame with battery and Mini PC, five-bar linkage joints with hip joint motors and wheel motors.',
           status: 'completed',
           phase: 'Design',
-          deliverables: ['Robot Mechanical 3D Drawing', 'Physical Robot Prototype']
+          deliverables: ['SolidWorks 3D Models', 'Physical Robot Prototype', 'Assembly Documentation']
         },
         {
-          title: 'Control System Development',
-          date: 'April 15, 2025',
-          description: 'Development of ROS-based control system utilizing functional libraries and tools, sensor data processing modules, and model-based control algorithms. Implementation is ongoing with core components in place.',
-          status: 'in-progress',
+          title: 'Electrical Control System Development',
+          date: 'April 15 - May 25, 2025',
+          description: 'Implementation of unified RTOS-based control system with CAN Bus configuration and joint motor position alignment. System enables real-time motor control and sensor integration.',
+          status: 'completed',
           phase: 'Development',
-          deliverables: ['Control System Architecture', 'Sensor Data Processing Module', 'Baseline Control Algorithms']
+          deliverables: ['RTOS Control System', 'CAN Bus Configuration', 'Motor Control Interface']
+        },
+        {
+          title: 'Simulation Environment Setup',
+          date: 'May 1 - May 30, 2025',
+          description: 'Complete Isaac Gym simulation environment setup on RTX4070 with Python 3.8, PyTorch 2.3, CUDA 12.4. Includes state space definition, motion space definition, and reward function design.',
+          status: 'completed',
+          phase: 'Development',
+          deliverables: ['Isaac Gym Environment', 'State/Motion Space Definition', 'Reward Function Framework']
+        },
+        {
+          title: 'Deep Reinforcement Learning Algorithm Implementation',
+          date: 'May 20 - June 1, 2025',
+          description: 'PPO algorithm implementation with comprehensive reward function design. Training completed on both flat and complex terrains with energy consumption optimization.',
+          status: 'completed',
+          phase: 'Development',
+          deliverables: ['PPO Algorithm Implementation', 'Reward Function Design', 'Training Results on Multiple Terrains']
         },
         {
           title: 'Project Web Page Development',
@@ -181,44 +241,36 @@ export default {
           deliverables: ['Web Application', 'Interactive Visualizations', 'Progress Updates']
         },
         {
-          title: 'Deep Reinforcement Learning Training (Simulation)',
-          date: 'May 20, 2025',
-          description: 'Training the robot in simulation environments with DRL algorithms such as DQN and PPO to optimize movement strategies. Nearly complete with final optimization tests underway.',
+          title: 'RTOS Project Finalization & Cable Management',
+          date: 'June 1 - June 15, 2025',
+          description: 'Completing the unified RTOS project and implementing proper cable management for improved system reliability.',
           status: 'in-progress',
           phase: 'Development',
-          deliverables: ['Simulation Environment Setup', 'DRL Algorithm Implementation', 'Training Results']
+          deliverables: ['Finalized RTOS System', 'Cable Management Implementation']
         },
         {
-          title: 'Deploying Control Systems to Edge Computing Environments',
-          date: 'May 25, 2025',
-          description: 'Enabling edge computing deployment to reduce latency and improve real-time responsiveness of the robot.',
-          status: 'upcoming',
-          phase: 'Deployment',
-          deliverables: ['Edge Computing Implementation', 'Performance Benchmarks']
-        },
-        {
-          title: 'Deep Reinforcement Learning Training (Realistic)',
-          date: 'June 8, 2025',
-          description: 'Transferring simulation-trained strategies to the real robot and adapting parameters to real-world conditions.',
+          title: 'Simulation Model Integration',
+          date: 'June 15 - June 30, 2025',
+          description: 'Integration of simulation model with physical robot, including noise perturbation for robustness testing and network parameter optimization.',
           status: 'upcoming',
           phase: 'Development',
-          deliverables: ['Transfer Learning Implementation', 'Real-world Training Results']
+          deliverables: ['Simulation-Physical Integration', 'Robustness Testing Results', 'Optimized Network Parameters']
         },
         {
-          title: 'Experimentation and Evaluation of Different Algorithms',
-          date: 'June 13, 2025',
-          description: 'Testing the robot in different terrains and environments, measuring metrics like speed, stability, and energy consumption.',
+          title: 'Real-world Deployment & Testing',
+          date: 'July 1 - July 10, 2025',
+          description: 'Packaging neural network for deployment using pkl, jit formats with Docker and ROS2 interface. Testing robot performance in real-world environments.',
           status: 'upcoming',
           phase: 'Testing',
-          deliverables: ['Experiment Design Documentation', 'Performance Analysis Report']
+          deliverables: ['Deployment Package', 'Real-world Test Results', 'Performance Analysis']
         },
         {
-          title: 'Final Report Submission',
-          date: 'July 15, 2025',
-          description: 'Compilation and submission of final project report documenting all aspects of the research.',
+          title: 'Final Report & Documentation',
+          date: 'July 10 - July 15, 2025',
+          description: 'Compilation and submission of final project report documenting all aspects of the research including mechanical design, control systems, and DRL implementation.',
           status: 'upcoming',
           phase: 'Documentation',
-          deliverables: ['Final Research Report', 'Technical Documentation']
+          deliverables: ['Final Research Report', 'Technical Documentation', 'Project Presentation']
         }
       ]
     }
@@ -282,6 +334,88 @@ export default {
   max-width: 700px;
   margin: 0 auto;
   opacity: 0.9;
+}
+
+/* Interim Report Section */
+.interim-report-section {
+  background-color: var(--light-color);
+  padding: 4rem 0;
+  margin-bottom: 3rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.interim-report-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.interim-report-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--dark-color);
+}
+
+.report-date {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+}
+
+.report-achievements {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.achievement-item {
+  background-color: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.achievement-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-icon {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(74, 108, 247, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.achievement-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: var(--dark-color);
+}
+
+.achievement-item p {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  line-height: 1.6;
 }
 
 /* Timeline Controls */
