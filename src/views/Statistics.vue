@@ -20,13 +20,13 @@
           <div class="progress-card">
             <h3>Overall Completion</h3>
             <div class="progress-container">
-              <div class="progress-circle" :style="{ '--progress': '75%' }">
+              <div class="progress-circle" :style="{ '--progress': '85%' }">
                 <div class="progress-circle-inner">
-                  <span>75%</span>
+                  <span>85%</span>
                 </div>
               </div>
             </div>
-            <p>Project ahead of schedule as of June 1, 2025</p>
+            <p>Significant progress made through June 30, 2025</p>
           </div>
 
           <div class="progress-card">
@@ -34,28 +34,28 @@
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Completed</span>
-                <span>4/9</span>
+                <span>8/11</span>
               </div>
               <div class="progress-bar">
-                <div class="progress" style="width: 44.4%;"></div>
+                <div class="progress" style="width: 72.7%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>In Progress</span>
-                <span>2/9</span>
+                <span>1/11</span>
               </div>
               <div class="progress-bar">
-                <div class="progress in-progress" style="width: 22.2%;"></div>
+                <div class="progress in-progress" style="width: 9.1%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Pending</span>
-                <span>3/9</span>
+                <span>2/11</span>
               </div>
               <div class="progress-bar">
-                <div class="progress pending" style="width: 33.3%;"></div>
+                <div class="progress pending" style="width: 18.2%;"></div>
               </div>
             </div>
           </div>
@@ -74,14 +74,14 @@
                 <i class="fas fa-calendar-check"></i>
                 <div class="status-details">
                   <h4>Time Elapsed</h4>
-                  <p>2 months (50%)</p>
+                  <p>3 months (75%)</p>
                 </div>
               </div>
               <div class="status-item">
                 <i class="fas fa-calendar-day"></i>
                 <div class="status-details">
                   <h4>Time Remaining</h4>
-                  <p>1.5 months</p>
+                  <p>2 weeks</p>
                 </div>
               </div>
             </div>
@@ -126,10 +126,10 @@
           <div class="phase-card">
             <div class="phase-header">
               <h3>Development</h3>
-              <span class="phase-status in-progress">In Progress</span>
+              <span class="phase-status completed">Completed</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 85%;"></div>
+              <div class="phase-progress-indicator" style="width: 100%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
@@ -142,7 +142,7 @@
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>3/4 Completed</span>
+                <span>7/7 Completed</span>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@
               <span class="phase-status in-progress">In Progress</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 40%;"></div>
+              <div class="phase-progress-indicator" style="width: 60%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">

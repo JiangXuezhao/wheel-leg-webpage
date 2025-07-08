@@ -77,15 +77,17 @@
             <h3>Current Status</h3>
             <div class="status-indicator">
               <div class="progress-bar">
-                <div class="progress" style="width: 75%;"></div>
+                <div class="progress" style="width: 85%;"></div>
               </div>
-              <p><span>75%</span> Complete</p>
+              <p><span>85%</span> Complete</p>
             </div>
             <ul class="status-details">
               <li><i class="fas fa-check-circle"></i> Mechanical Structures: <span>Completed</span></li>
               <li><i class="fas fa-check-circle"></i> Electrical Control: <span>Completed</span></li>
               <li><i class="fas fa-check-circle"></i> Simulation Environment: <span>Completed</span></li>
-              <li><i class="fas fa-spinner fa-spin"></i> Real-world Testing: <span>In Progress</span></li>
+              <li><i class="fas fa-check-circle"></i> Hardware Refinement: <span>Completed</span></li>
+              <li><i class="fas fa-check-circle"></i> Model Fine-tuning: <span>Completed</span></li>
+              <li><i class="fas fa-spinner fa-spin"></i> Final Testing: <span>Upcoming</span></li>
             </ul>
           </div>
 
@@ -95,22 +97,29 @@
               <li>
                 <div class="achievement-icon"><i class="fas fa-cogs"></i></div>
                 <div class="achievement-content">
-                  <h4>Physical Robot Constructed</h4>
-                  <p>Complete SolidWorks modeling with #-shaped frame, battery, Mini PC, and five-bar linkage joints</p>
+                  <h4>Hardware System Refinement</h4>
+                  <p>Enhanced SolidWorks models with NUC and voltage regulator, completed robot assembly with comprehensive wiring</p>
                 </div>
               </li>
               <li>
-                <div class="achievement-icon"><i class="fas fa-microchip"></i></div>
+                <div class="achievement-icon"><i class="fas fa-wifi"></i></div>
                 <div class="achievement-content">
-                  <h4>RTOS Control System</h4>
-                  <p>Unified RTOS project with CAN Bus configuration and joint motor position alignment</p>
+                  <h4>Wireless Control GUI</h4>
+                  <p>Developed GUI for wireless debugging and control with cable soldering and system integration</p>
                 </div>
               </li>
               <li>
                 <div class="achievement-icon"><i class="fas fa-brain"></i></div>
                 <div class="achievement-content">
-                  <h4>PPO Algorithm Implementation</h4>
-                  <p>Deep reinforcement learning with Isaac Gym on RTX4070, testing on flat and complex terrains</p>
+                  <h4>Isaac Lab Migration</h4>
+                  <p>Upgraded from Isaac Gym to Isaac Lab for enhanced simulation performance and expanded task support</p>
+                </div>
+              </li>
+              <li>
+                <div class="achievement-icon"><i class="fas fa-chart-line"></i></div>
+                <div class="achievement-content">
+                  <h4>Model Fine-tuning Success</h4>
+                  <p>Improved robot stability from unstable leg positioning to normal operation through parameter optimization</p>
                 </div>
               </li>
             </ul>

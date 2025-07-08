@@ -14,8 +14,8 @@
         <!-- Interim Report Section -->
         <div class="interim-report-section">
           <div class="interim-report-header">
-            <h2>Interim Report Highlights</h2>
-            <p class="report-date">As of June 1, 2025</p>
+            <h2>Latest Progress Highlights</h2>
+            <p class="report-date">As of June 30, 2025</p>
           </div>
           
           <div class="report-achievements">
@@ -24,32 +24,32 @@
                 <div class="achievement-icon">
                   <i class="fas fa-cogs"></i>
                 </div>
-                <h3>Physical Robot Completed</h3>
-                <p>Complete mechanical structures with #-shaped frame, battery, Mini PC, and five-bar linkage joints</p>
+                <h3>Hardware Refinement</h3>
+                <p>Enhanced SolidWorks models with NUC and voltage regulator module, completed assembly with wiring</p>
               </div>
               
               <div class="achievement-item">
                 <div class="achievement-icon">
-                  <i class="fas fa-microchip"></i>
+                  <i class="fas fa-wifi"></i>
                 </div>
-                <h3>RTOS Control System</h3>
-                <p>Unified RTOS project with CAN Bus configuration and joint motor position alignment</p>
+                <h3>Wireless Control GUI</h3>
+                <p>Developed GUI interface for wireless debugging and control with comprehensive system integration</p>
               </div>
               
               <div class="achievement-item">
                 <div class="achievement-icon">
-                  <i class="fas fa-brain"></i>
+                  <i class="fas fa-chart-line"></i>
                 </div>
-                <h3>PPO Algorithm Training</h3>
-                <p>Complete simulation environment with Isaac Gym, testing on flat and complex terrains</p>
+                <h3>Model Fine-tuning</h3>
+                <p>Parameter optimization improved stability from unstable leg positioning to normal operation</p>
               </div>
               
               <div class="achievement-item">
                 <div class="achievement-icon">
-                  <i class="fas fa-desktop"></i>
+                  <i class="fas fa-rocket"></i>
                 </div>
-                <h3>Simulation Platform</h3>
-                <p>RTX4070 with Python 3.8, PyTorch 2.3, comprehensive reward function design</p>
+                <h3>Isaac Lab Migration</h3>
+                <p>Enhanced simulation performance with Isaac Lab for improved training speed and task diversity</p>
               </div>
             </div>
           </div>
@@ -233,28 +233,44 @@ export default {
           deliverables: ['PPO Algorithm Implementation', 'Reward Function Design', 'Training Results on Multiple Terrains']
         },
         {
+          title: 'Hardware Refinement & Assembly',
+          date: 'June 1 - June 15, 2025',
+          description: 'Refinement of SolidWorks drawings with NUC and voltage regulator module additions. Robot assembly proceeded with comprehensive wiring and cable management.',
+          status: 'completed',
+          phase: 'Development',
+          deliverables: ['Refined SolidWorks Drawings', 'Hardware Assembly', 'Wiring Documentation']
+        },
+        {
+          title: 'Wireless Control GUI Development',
+          date: 'June 10 - June 20, 2025',
+          description: 'Design and implementation of GUI for wireless debugging and controlling. Mechanical assembly support through cable soldering and system integration.',
+          status: 'completed',
+          phase: 'Development',
+          deliverables: ['Wireless Control GUI', 'Debug Interface', 'Cable Assembly']
+        },
+        {
+          title: 'URDF Model & Simulation Fine-tuning',
+          date: 'June 15 - June 25, 2025',
+          description: 'Establishment of URDF models for simulation with simplification. Model fine-tuning to address parameter degradation, improving stability from unstable leg positioning to normal operation.',
+          status: 'completed',
+          phase: 'Development',
+          deliverables: ['URDF Models', 'Simulation Simplification', 'Fine-tuned Parameters']
+        },
+        {
+          title: 'Isaac Lab Migration',
+          date: 'June 25 - June 30, 2025',
+          description: 'Migration from Isaac Gym to Isaac Lab for enhanced simulation performance, wider task support, and improved training speed and experimental diversity.',
+          status: 'completed',
+          phase: 'Development',
+          deliverables: ['Isaac Lab Environment', 'Enhanced Simulation Performance', 'Expanded Task Support']
+        },
+        {
           title: 'Project Web Page Development',
           date: 'April 18, 2025 - Ongoing',
           description: 'Creation of comprehensive project web pages to showcase the research progress and results. Continually updated throughout the project.',
           status: 'in-progress',
           phase: 'Documentation',
           deliverables: ['Web Application', 'Interactive Visualizations', 'Progress Updates']
-        },
-        {
-          title: 'RTOS Project Finalization & Cable Management',
-          date: 'June 1 - June 15, 2025',
-          description: 'Completing the unified RTOS project and implementing proper cable management for improved system reliability.',
-          status: 'in-progress',
-          phase: 'Development',
-          deliverables: ['Finalized RTOS System', 'Cable Management Implementation']
-        },
-        {
-          title: 'Simulation Model Integration',
-          date: 'June 15 - June 30, 2025',
-          description: 'Integration of simulation model with physical robot, including noise perturbation for robustness testing and network parameter optimization.',
-          status: 'upcoming',
-          phase: 'Development',
-          deliverables: ['Simulation-Physical Integration', 'Robustness Testing Results', 'Optimized Network Parameters']
         },
         {
           title: 'Real-world Deployment & Testing',

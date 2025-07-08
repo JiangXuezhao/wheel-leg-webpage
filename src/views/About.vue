@@ -115,7 +115,7 @@
       <div class="container">
         <div class="section-title">
           <h2>Technical Specifications</h2>
-          <p>Detailed technical information about our implementation (as of June 1, 2025)</p>
+          <p>Detailed technical information about our implementation (as of June 30, 2025)</p>
         </div>
 
         <div class="specs-content">
@@ -130,16 +130,24 @@
                 <span class="spec-value">#-shaped frame with integrated battery and Mini PC</span>
               </div>
               <div class="spec-item">
+                <span class="spec-label">Hardware Additions:</span>
+                <span class="spec-value">NUC and voltage regulator module integrated</span>
+              </div>
+              <div class="spec-item">
                 <span class="spec-label">Leg Design:</span>
                 <span class="spec-value">Hip joint motor + Five-bar linkage joint + Wheel motor</span>
               </div>
               <div class="spec-item">
+                <span class="spec-label">Assembly:</span>
+                <span class="spec-value">Complete wiring and cable management</span>
+              </div>
+              <div class="spec-item">
                 <span class="spec-label">Modeling Platform:</span>
-                <span class="spec-value">SolidWorks (Complete 3D modeling)</span>
+                <span class="spec-value">SolidWorks (Refined 3D modeling)</span>
               </div>
               <div class="spec-item">
                 <span class="spec-label">Status:</span>
-                <span class="spec-value status-completed">Physical assembly completed</span>
+                <span class="spec-value status-completed">Hardware refinement completed</span>
               </div>
             </div>
           </div>
@@ -163,8 +171,12 @@
                 <span class="spec-value">RTOS-based unified project</span>
               </div>
               <div class="spec-item">
+                <span class="spec-label">GUI Interface:</span>
+                <span class="spec-value">Wireless debugging and control GUI</span>
+              </div>
+              <div class="spec-item">
                 <span class="spec-label">Status:</span>
-                <span class="spec-value status-completed">Core system operational</span>
+                <span class="spec-value status-completed">Full control system operational</span>
               </div>
             </div>
           </div>
@@ -181,15 +193,19 @@
               </div>
               <div class="spec-item">
                 <span class="spec-label">Platform:</span>
-                <span class="spec-value">Isaac Gym</span>
+                <span class="spec-value">Isaac Lab (migrated from Isaac Gym)</span>
               </div>
               <div class="spec-item">
                 <span class="spec-label">Software Stack:</span>
                 <span class="spec-value">Python 3.8, PyTorch 2.3, CUDA 12.4</span>
               </div>
               <div class="spec-item">
+                <span class="spec-label">Performance:</span>
+                <span class="spec-value">Enhanced simulation speed and task diversity</span>
+              </div>
+              <div class="spec-item">
                 <span class="spec-label">Status:</span>
-                <span class="spec-value status-completed">Fully operational</span>
+                <span class="spec-value status-completed">Migration completed</span>
               </div>
             </div>
           </div>
@@ -217,13 +233,44 @@
                 <span class="spec-value">6 dimensions (joint target positions/velocities)</span>
               </div>
               <div class="spec-item">
-                <span class="spec-label">Terrain Testing:</span>
-                <span class="spec-value">Flat terrain and complex terrain completed</span>
+                <span class="spec-label">URDF Model:</span>
+                <span class="spec-value">Simplified models for enhanced simulation</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Fine-tuning:</span>
+                <span class="spec-value">Parameter optimization for stability improvement</span>
               </div>
               <div class="spec-item">
                 <span class="spec-label">Status:</span>
-                <span class="spec-value status-completed">Training completed</span>
+                <span class="spec-value status-completed">Model fine-tuning completed</span>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="model-tuning-section">
+          <h3>Model Fine-tuning Results</h3>
+          <p>Parameter optimization led to significant stability improvements:</p>
+          <div class="tuning-results">
+            <div class="before-after">
+              <div class="result-item">
+                <h4>Before Fine-tuning</h4>
+                <p>Unstable state with legs slightly lifted backward</p>
+              </div>
+              <div class="result-item">
+                <h4>After Fine-tuning</h4>
+                <p>Normal operation with legs kept straight and stable</p>
+              </div>
+            </div>
+            <div class="parameter-details">
+              <h4>Key Parameter Updates</h4>
+              <ul>
+                <li>Tracking linear velocity: 0.5</li>
+                <li>Tracking angular velocity: 1.0</li>
+                <li>Base height control: 1.0</li>
+                <li>Orientation stability: -10.0</li>
+                <li>Joint velocity damping: -5e-5</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -735,6 +782,77 @@ export default {
   font-weight: 600;
 }
 
+.model-tuning-section {
+  background-color: white;
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 3rem;
+}
+
+.model-tuning-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+
+.tuning-results {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.before-after {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.result-item {
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.result-item h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: var(--primary-color);
+}
+
+.result-item p {
+  color: var(--secondary-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.parameter-details {
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+}
+
+.parameter-details h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: var(--primary-color);
+}
+
+.parameter-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.parameter-details li {
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
 .reward-function-section {
   background-color: white;
   border-radius: var(--border-radius);
@@ -937,20 +1055,58 @@ export default {
   .methodology-content {
     grid-template-columns: 1fr;
   }
+  
+  .specs-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .before-after {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .tuning-results {
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 768px) {
+  .team-cards {
+    grid-template-columns: 1fr;
+  }
+  
   .methodology-item {
     flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
   }
   
   .methodology-icon {
     margin-bottom: 1rem;
   }
   
-  .tech-list {
+  .specs-content {
     grid-template-columns: 1fr;
+  }
+  
+  .plan-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .plan-icon {
+    margin-bottom: 1rem;
+  }
+  
+  .reward-categories {
+    grid-template-columns: 1fr;
+  }
+  
+  .model-tuning-section {
+    padding: 1.5rem;
+  }
+  
+  .parameter-details {
+    padding: 1rem;
   }
 }
 
