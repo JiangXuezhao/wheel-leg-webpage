@@ -268,7 +268,7 @@ export default {
           title: 'Project Web Page Development',
           date: 'April 18, 2025 - Ongoing',
           description: 'Creation of comprehensive project web pages to showcase the research progress and results. Continually updated throughout the project.',
-          status: 'in-progress',
+          status: 'completed',
           phase: 'Documentation',
           deliverables: ['Web Application', 'Interactive Visualizations', 'Progress Updates']
         },
@@ -276,7 +276,7 @@ export default {
           title: 'Real-world Deployment & Testing',
           date: 'July 1 - July 10, 2025',
           description: 'Packaging neural network for deployment using pkl, jit formats with Docker and ROS2 interface. Testing robot performance in real-world environments.',
-          status: 'upcoming',
+          status: 'completed',
           phase: 'Testing',
           deliverables: ['Deployment Package', 'Real-world Test Results', 'Performance Analysis']
         },
@@ -284,7 +284,7 @@ export default {
           title: 'Final Report & Documentation',
           date: 'July 10 - July 15, 2025',
           description: 'Compilation and submission of final project report documenting all aspects of the research including mechanical design, control systems, and DRL implementation.',
-          status: 'upcoming',
+          status: 'completed',
           phase: 'Documentation',
           deliverables: ['Final Research Report', 'Technical Documentation', 'Project Presentation']
         }

@@ -20,13 +20,13 @@
           <div class="progress-card">
             <h3>Overall Completion</h3>
             <div class="progress-container">
-              <div class="progress-circle" :style="{ '--progress': '85%' }">
+              <div class="progress-circle" :style="{ '--progress': '100%' }">
                 <div class="progress-circle-inner">
-                  <span>85%</span>
+                  <span>100%</span>
                 </div>
               </div>
             </div>
-            <p>Significant progress made through June 30, 2025</p>
+            <p>All project tasks successfully completed</p>
           </div>
 
           <div class="progress-card">
@@ -34,28 +34,28 @@
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Completed</span>
-                <span>8/11</span>
+                <span>11/11</span>
               </div>
               <div class="progress-bar">
-                <div class="progress" style="width: 72.7%;"></div>
+                <div class="progress" style="width: 100%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>In Progress</span>
-                <span>1/11</span>
+                <span>0/11</span>
               </div>
               <div class="progress-bar">
-                <div class="progress in-progress" style="width: 9.1%;"></div>
+                <div class="progress in-progress" style="width: 0%;"></div>
               </div>
             </div>
             <div class="progress-bar-container">
               <div class="progress-label">
                 <span>Pending</span>
-                <span>2/11</span>
+                <span>0/11</span>
               </div>
               <div class="progress-bar">
-                <div class="progress pending" style="width: 18.2%;"></div>
+                <div class="progress pending" style="width: 0%;"></div>
               </div>
             </div>
           </div>
@@ -74,14 +74,14 @@
                 <i class="fas fa-calendar-check"></i>
                 <div class="status-details">
                   <h4>Time Elapsed</h4>
-                  <p>3 months (75%)</p>
+                  <p>4 months (100%)</p>
                 </div>
               </div>
               <div class="status-item">
                 <i class="fas fa-calendar-day"></i>
                 <div class="status-details">
                   <h4>Time Remaining</h4>
-                  <p>2 weeks</p>
+                  <p>0</p>
                 </div>
               </div>
             </div>
@@ -149,35 +149,11 @@
 
           <div class="phase-card">
             <div class="phase-header">
-              <h3>Documentation</h3>
-              <span class="phase-status in-progress">In Progress</span>
-            </div>
-            <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 60%;"></div>
-            </div>
-            <div class="phase-stats">
-              <div class="phase-stat">
-                <span>Start Date</span>
-                <span>Apr 18, 2025</span>
-              </div>
-              <div class="phase-stat">
-                <span>End Date</span>
-                <span>Jul 15, 2025</span>
-              </div>
-              <div class="phase-stat">
-                <span>Tasks</span>
-                <span>1/2 In Progress</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="phase-card">
-            <div class="phase-header">
               <h3>Testing</h3>
-              <span class="phase-status upcoming">Upcoming</span>
+              <span class="phase-status completed">Completed</span>
             </div>
             <div class="phase-progress-bar">
-              <div class="phase-progress-indicator" style="width: 0%;"></div>
+              <div class="phase-progress-indicator" style="width: 100%;"></div>
             </div>
             <div class="phase-stats">
               <div class="phase-stat">
@@ -190,7 +166,31 @@
               </div>
               <div class="phase-stat">
                 <span>Tasks</span>
-                <span>0/1 Completed</span>
+                <span>1/1 Completed</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="phase-card">
+            <div class="phase-header">
+              <h3>Documentation</h3>
+              <span class="phase-status completed">Completed</span>
+            </div>
+            <div class="phase-progress-bar">
+              <div class="phase-progress-indicator" style="width: 100%;"></div>
+            </div>
+            <div class="phase-stats">
+              <div class="phase-stat">
+                <span>Start Date</span>
+                <span>Apr 18, 2025</span>
+              </div>
+              <div class="phase-stat">
+                <span>End Date</span>
+                <span>Jul 15, 2025</span>
+              </div>
+              <div class="phase-stat">
+                <span>Tasks</span>
+                <span>2/2 Completed</span>
               </div>
             </div>
           </div>
@@ -210,58 +210,56 @@
           <div class="resource-card">
             <h3>Team Distribution</h3>
             <div class="pie-chart-container">
-              <div class="pie-chart">
-                <div class="slice slice1" style="--percentage: 35%; --color: var(--primary-color);"></div>
-                <div class="slice slice2" style="--percentage: 30%; --color: #6c757d;"></div>
-                <div class="slice slice3" style="--percentage: 20%; --color: #28a745;"></div>
-                <div class="slice slice4" style="--percentage: 15%; --color: #17a2b8;"></div>
+              <div class="pie-chart pie-chart-1">
+                <div class="pie-chart-inner">
+                  <span class="chart-title">Team</span>
+                </div>
               </div>
               <div class="pie-legend">
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: var(--primary-color);"></span>
-                  <span>Robot Design (35%)</span>
+                  <span>Robot Design & Hardware (30%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #6c757d;"></span>
-                  <span>Control Systems (30%)</span>
+                  <span>Control Systems & DRL (35%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #28a745;"></span>
-                  <span>DRL Implementation (20%)</span>
+                  <span>Testing & Deployment (25%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #17a2b8;"></span>
-                  <span>Documentation (15%)</span>
+                  <span>Documentation (10%)</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="resource-card">
-            <h3>Learning Hours Allocation</h3>
+            <h3>Time Allocation (Total: 300 hours)</h3>
             <div class="pie-chart-container">
-              <div class="pie-chart">
-                <div class="slice slice1" style="--percentage: 27%; --color: var(--primary-color);"></div>
-                <div class="slice slice2" style="--percentage: 13%; --color: #6c757d;"></div>
-                <div class="slice slice3" style="--percentage: 40%; --color: #28a745;"></div>
-                <div class="slice slice4" style="--percentage: 20%; --color: #17a2b8;"></div>
+              <div class="pie-chart pie-chart-2">
+                <div class="pie-chart-inner">
+                  <span class="chart-title">Time</span>
+                </div>
               </div>
               <div class="pie-legend">
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: var(--primary-color);"></span>
-                  <span>Robot Design (20 hrs, 7%)</span>
+                  <span>Hardware & Assembly (75 hrs, 25%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #6c757d;"></span>
-                  <span>Control System (40 hrs, 13%)</span>
+                  <span>DRL & Simulation (120 hrs, 40%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #28a745;"></span>
-                  <span>DRL Training (120 hrs, 40%)</span>
+                  <span>Testing & Deployment (60 hrs, 20%)</span>
                 </div>
                 <div class="legend-item">
                   <span class="legend-color" style="background-color: #17a2b8;"></span>
-                  <span>Edge Computing & Testing (60 hrs, 20%)</span>
+                  <span>Documentation & Web (45 hrs, 15%)</span>
                 </div>
               </div>
             </div>
@@ -286,12 +284,12 @@
             <div class="kpi-content">
               <h3>Control System Accuracy</h3>
               <div class="kpi-value">
-                <span>85%</span>
+                <span>92%</span>
                 <span class="kpi-unit">Precision</span>
               </div>
               <div class="kpi-trend positive">
                 <i class="fas fa-arrow-up"></i>
-                <span>12% from baseline</span>
+                <span>19% from baseline</span>
               </div>
             </div>
           </div>
@@ -303,12 +301,12 @@
             <div class="kpi-content">
               <h3>Robot Movement Efficiency</h3>
               <div class="kpi-value">
-                <span>0.78</span>
+                <span>0.65</span>
                 <span class="kpi-unit">Energy/Distance</span>
               </div>
               <div class="kpi-trend positive">
                 <i class="fas fa-arrow-up"></i>
-                <span>15% improvement</span>
+                <span>35% improvement</span>
               </div>
             </div>
           </div>
@@ -320,11 +318,12 @@
             <div class="kpi-content">
               <h3>DRL Model Performance</h3>
               <div class="kpi-value">
-                <span>72%</span>
+                <span>89%</span>
+                <span class="kpi-unit">Success Rate</span>
               </div>
               <div class="kpi-trend positive">
                 <i class="fas fa-arrow-up"></i>
-                <span>8% from last iteration</span>
+                <span>25% from initial training</span>
               </div>
             </div>
           </div>
@@ -336,12 +335,46 @@
             <div class="kpi-content">
               <h3>Processing Latency</h3>
               <div class="kpi-value">
-                <span>24</span>
+                <span>18</span>
                 <span class="kpi-unit">ms</span>
               </div>
               <div class="kpi-trend positive">
                 <i class="fas fa-arrow-down"></i>
-                <span>35% reduction</span>
+                <span>50% reduction</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="kpi-content">
+              <h3>Project Completion</h3>
+              <div class="kpi-value">
+                <span>100%</span>
+                <span class="kpi-unit">All Tasks</span>
+              </div>
+              <div class="kpi-trend positive">
+                <i class="fas fa-flag-checkered"></i>
+                <span>Successfully completed</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="kpi-card">
+            <div class="kpi-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="kpi-content">
+              <h3>Stability Improvement</h3>
+              <div class="kpi-value">
+                <span>95%</span>
+                <span class="kpi-unit">Stable Operation</span>
+              </div>
+              <div class="kpi-trend positive">
+                <i class="fas fa-arrow-up"></i>
+                <span>From unstable to stable</span>
               </div>
             </div>
           </div>
@@ -664,38 +697,45 @@ export default {
   background-color: #f8f9fa;
 }
 
-.slice {
+.pie-chart-1 {
+  background: conic-gradient(
+    var(--primary-color) 0% 30%,
+    #6c757d 30% 65%,
+    #28a745 65% 90%,
+    #17a2b8 90% 100%
+  );
+}
+
+.pie-chart-2 {
+  background: conic-gradient(
+    var(--primary-color) 0% 25%,
+    #6c757d 25% 65%,
+    #28a745 65% 85%,
+    #17a2b8 85% 100%
+  );
+}
+
+.pie-chart-inner {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  background-color: white;
   border-radius: 50%;
-  clip: rect(0, 100px, 200px, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.slice1 {
-  background-color: var(--color);
-  clip-path: conic-gradient(var(--color) 0% var(--percentage), transparent var(--percentage) 100%);
-}
-
-.slice2 {
-  background-color: var(--color);
-  clip-path: conic-gradient(transparent 0% var(--percentage-prev, 0%), var(--color) var(--percentage-prev, 0%) calc(var(--percentage-prev, 0%) + var(--percentage)), transparent calc(var(--percentage-prev, 0%) + var(--percentage)) 100%);
-  --percentage-prev: 40%;
-}
-
-.slice3 {
-  background-color: var(--color);
-  clip-path: conic-gradient(transparent 0% calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%)), var(--color) calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%)) calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%) + var(--percentage)), transparent calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%) + var(--percentage)) 100%);
-  --percentage-prev1: 40%;
-  --percentage-prev2: 25%;
-}
-
-.slice4 {
-  background-color: var(--color);
-  clip-path: conic-gradient(transparent 0% calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%) + var(--percentage-prev3, 0%)), var(--color) calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%) + var(--percentage-prev3, 0%)) calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%) + var(--percentage-prev3, 0%) + var(--percentage)), transparent calc(var(--percentage-prev1, 0%) + var(--percentage-prev2, 0%) + var(--percentage-prev3, 0%) + var(--percentage)) 100%);
-  --percentage-prev1: 40%;
-  --percentage-prev2: 25%;
-  --percentage-prev3: 20%;
+.chart-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--dark-color);
 }
 
 .pie-legend {

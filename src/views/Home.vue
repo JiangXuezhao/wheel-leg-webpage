@@ -77,9 +77,9 @@
             <h3>Current Status</h3>
             <div class="status-indicator">
               <div class="progress-bar">
-                <div class="progress" style="width: 85%;"></div>
+                <div class="progress" style="width: 100%;"></div>
               </div>
-              <p><span>85%</span> Complete</p>
+              <p><span>100%</span> Complete</p>
             </div>
             <ul class="status-details">
               <li><i class="fas fa-check-circle"></i> Mechanical Structures: <span>Completed</span></li>
@@ -87,7 +87,7 @@
               <li><i class="fas fa-check-circle"></i> Simulation Environment: <span>Completed</span></li>
               <li><i class="fas fa-check-circle"></i> Hardware Refinement: <span>Completed</span></li>
               <li><i class="fas fa-check-circle"></i> Model Fine-tuning: <span>Completed</span></li>
-              <li><i class="fas fa-spinner fa-spin"></i> Final Testing: <span>Upcoming</span></li>
+              <li><i class="fas fa-check-circle"></i> Final Testing: <span>Completed</span></li>
             </ul>
           </div>
 
@@ -120,6 +120,20 @@
                 <div class="achievement-content">
                   <h4>Model Fine-tuning Success</h4>
                   <p>Improved robot stability from unstable leg positioning to normal operation through parameter optimization</p>
+                </div>
+              </li>
+              <li>
+                <div class="achievement-icon"><i class="fas fa-flag-checkered"></i></div>
+                <div class="achievement-content">
+                  <h4>Real-world Deployment Completed</h4>
+                  <p>Neural network deployed and tested successfully in real-world environments</p>
+                </div>
+              </li>
+              <li>
+                <div class="achievement-icon"><i class="fas fa-clipboard-check"></i></div>
+                <div class="achievement-content">
+                  <h4>Final Report Submitted</h4>
+                  <p>Final research report and presentation submitted on July 15, 2025</p>
                 </div>
               </li>
             </ul>
